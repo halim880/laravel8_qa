@@ -1,0 +1,28 @@
+
+
+
+.vote-controls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vote-controls span, a, i{
+    display: block;
+}
+
+.vote-controls a{
+    color: grey;
+    cursor: pointer;
+}
+
+.vote-controls a.off, a.off:hover{
+    color: lightgrey;
+}
+
+.vote-controls .favorite.favorited, .favorited:hover{
+        color: orange;
+}
+.vote-controls a.answer-accepted{
+    color: green;
+}
